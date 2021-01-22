@@ -1,0 +1,41 @@
+
+div {
+  position: relative;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/*
+Classes are denoted by a period .
+IDs are denoted by a hashtag #
+ */
+
+div.bg-red {
+  background-color: red;
+}
+
+div.bg-blue {
+  background-color: blue;
+}
+
+/* div#one {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+div#two {
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+
+div#three {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+} */

@@ -1,0 +1,23 @@
+
+.flex-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: center;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 200px;
+  height: 150px;
+  line-height: 150px;
+  background-color: tomato;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
