@@ -1,0 +1,83 @@
+
+/* Flex */
+header {
+
+}
+
+@media (min-width: 700px) {
+
+  .leading {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+/* Grid */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+  grid-gap: 30px;
+}
+
+/* Global Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  padding: 10px;
+  font-size: 2em;
+  background-color: #333;
+  color: white;
+}
+
+/*
+Class is denoted by a period .
+ID is denoted by a hashtag #
+*/
+.leading {
+  height: 280px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
+
+.leading-bigtext {
+  font-size: 20vw;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+@media (min-width: 700px) {
+
+  .leading-bigtext {
+    font-size: 140px;
+  }
+
+}
+
+.leading-text {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  max-width: 900px;
+}
+
+.projects {
+  max-width: 960px;
+  /* Top/bottom - left/right */
+  margin: 0 auto;
+}
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
