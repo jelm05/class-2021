@@ -1,0 +1,19 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-child {
+  min-height: 250px;
+  border: 1px solid black;
+}
+
+#special-grid-child {
+  background-color: tomato;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
