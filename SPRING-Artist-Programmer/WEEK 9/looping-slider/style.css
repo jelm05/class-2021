@@ -1,0 +1,93 @@
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* 
+    positioning absolutely within a relatively positioned element 
+    means that the child element is always positioned in relation to its parent 
+  */
+  position: absolute;
+  /* There are 3 slides, we want each to take up 100% of its parent, so 3*100% = */
+  width: 300%;
+  height: 100%;
+  top: 0;
+}
+
+.slider li {
+  margin: 0;
+  padding: 0;
+  width: 33.333333333333%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: none;
+  overflow: hidden;
+}
+
+.slider img {
+  border: none;
+  width: 100%;
+  min-height: 100%;
+}
+
+.slider button {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  background-color: rgba( 0, 0, 0, 0.3);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  z-index: 2;
+  opacity: 0;
+}
+
+.slider button:hover,
+.slider button:active {
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+button.prev {
+  left: 0;
+}
+
+button.next {
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
