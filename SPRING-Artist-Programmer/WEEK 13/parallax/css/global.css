@@ -1,0 +1,117 @@
+
+/*****
+TABLE OF CONTENTS
+1) Header Styles
+2) Global Container Styles 
+*****/
+
+
+/***** Fonts *****/
+@font-face {
+  /* This is like declaring a variable, name your font,
+  and you want to call it */
+  font-family: great-vibes;
+  src: url(../assets/fonts/great-vibes/GreatVibes-Regular.otf);
+}
+
+/***** 1) Header Styles *****/
+
+header {
+  background-color: grey;
+  width: 100%;
+  padding: 10px;
+  min-height: 50px;
+  /* To make sticky, and stay up top: */
+  position: fixed;
+  z-index: 5;
+}
+
+
+.parallax p {
+  padding: 25px;
+  font-size: 2em;
+  font-family: great-vibes;
+}
+
+
+/***** 2) Global Container Styles *****/
+
+section#global-container {
+  padding-top: 80px;
+}
+
+#global-container,
+.global-header-video,
+.parallax-container {
+  width: 100%;
+}
+
+/* Target the child video tag */
+.global-header-video video {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/***** ) Parallax Styles *****/
+
+.parallax {
+  height: 500px;
+  border: 1px solid blue;
+  /* This line that creates the parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#one {
+  background-image: url("../assets/images/one.jpg");
+}
+
+#two {
+  background-image: url("../assets/images/two.jpg");
+}
+
+#three {
+  background-image: url("../assets/images/three.jpg");
+}
+
+#four {
+  background-image: url("../assets/images/four.jpg");
+}
+
+
+/***** ) Footer Styles *****/
+
+footer {
+  background-color: grey;
+  position: fixed;
+  min-height: 50px;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
