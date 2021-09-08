@@ -1,0 +1,9 @@
+
+/* This is a CSS comment */
+
+/* I want ALL h1 tags to have a color of green */
+h1 {
+  color : green;
+  font-size: 3em;
+  border: 1px solid blue;
+}
