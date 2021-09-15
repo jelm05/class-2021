@@ -1,0 +1,37 @@
+
+/* Every single div */
+div {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+#red {
+  background-color: red;
+  right: 100px;
+  bottom: 100px;
+}
+
+#green {
+  background-color: green;
+  top: 100px;
+  left: 300px;
+}
+
+#blue {
+  background-color: blue;
+  top: 500px;
+  left: 250px;
+}
+
+#orange {
+  background-color: orange;
+  top: 10px;
+  left: -75px;
+}
+
+#purple {
+  background-color: purple;
+  right: 300px;
+  top: 10px;
+}
