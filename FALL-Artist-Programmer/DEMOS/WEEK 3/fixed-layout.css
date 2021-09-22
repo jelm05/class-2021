@@ -1,0 +1,36 @@
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* The hashtag = id */
+section#primary-container {
+  width: 1200px;
+  border: 1px solid blue;
+}
+
+/* The period = class */
+.hidden {
+  display: none;
+}
+
+/*
+Detect when the device is a phone
+And then un-hide the element
+*/
+
+/* Only apply these styles when the screen is between 321 and 568px */
+@media only screen and (min-width: 321px) and (max-width: 568px) and (orientation: landscape) {
+
+  .hidden {
+    display: block;
+    background-color: tomato;
+  }
+
+  .mobile {
+    font-size: 30px;
+  }
+
+}

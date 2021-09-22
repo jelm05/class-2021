@@ -1,0 +1,20 @@
+
+div.grid-container {
+  display: grid;
+  /* 3 column grid; 3 row grid */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+div.grid-child {
+  min-height: 250px;
+  border: 1px solid green;
+}
+
+#special {
+  background-color: tomato;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
