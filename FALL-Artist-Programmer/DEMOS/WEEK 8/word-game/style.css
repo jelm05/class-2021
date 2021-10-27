@@ -1,0 +1,10 @@
+
+.letter {
+  position: relative;
+  float: left;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 30px;
+  font-family: monospace, sans-serif;
+}
