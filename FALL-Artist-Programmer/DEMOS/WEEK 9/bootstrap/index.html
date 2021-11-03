@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header>
+      <div class="bg-dark collapse" id="navbar-header">
+
+        <div class="container text-white"> <!-- A container contains rows/columns -->
+          <div class="row"> <!-- A row contains columns and is a child of a container -->
+
+            <div class="col-sm-8"> <!-- Columns must be children of rows -->
+
+              <h4>About Me</h4>
+              <p>A bunch of jargon.</p>
+
+            </div> <!-- End column -->
+
+            <div class="col-sm-4">
+
+              <h4>Contact</h4>
+              <ul class="list-unstyled">
+                <li><a class="text-white" href="https://linkedin.com/">LinkedIn</a></li>
+                <li>
+                  <!-- target="_blank" means the page will open in a new tab -->
+                  <a class="text-white" href="https://instagram.com/" target="_blank">
+                    Instagram
+                  </a>
+                </li>
+                <li><a class="text-white" href="#">Email</a></li>
+              </ul>
+
+            </div> <!-- End column -->
+
+          </div> <!-- End row -->
+        </div>
+
+      </div> <!-- End navbar-header -->
+
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <!-- Fill in the alt text for accessibility reasons -->
+            <img src="assets/feather/box.svg" alt="Box Feather Icon">
+            <strong>Portfolio</strong>
+          </a>
+
+          <!-- data-bs-toggle = The name of the animation being applied -->
+          <!-- data-bs-target = The target of our animation -->
+          <button type="button"
+                  class="navbar-toggler collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar-header"
+                  aria-controls="navbar-header"
+                  aria-expanded="false"
+                  aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        </div> <!-- End container -->
+      </div> <!-- End navbar -->
+
+    </header>
+
+    <main>
+
+      <section class="py-5 container text-center">
+        <div class="row py-lg-5">
+
+          <div class="col-lg-6 mx-auto">
+            <!-- You can override bootstrap styles in-line -->
+            <!-- !important; means to ignore other color styles and use this one -->
+            <h1 style="color: red !important;">My portfolio.</h1>
+            <p class="text-muted">Leading text here. My intro.</p>
+
+            <p>
+              <!-- my = for top and bottom margin -->
+              <a href="gallery.html" class="btn btn-dark my-2">Check out my image gallery!</a>
+              <a href="#" class="btn btn-light my-2">Another cool button.</a>
+            </p>
+
+          </div>
+
+        </div> <!-- End row -->
+      </section>
+
+    </main>
+
+  </body>
+</html>
