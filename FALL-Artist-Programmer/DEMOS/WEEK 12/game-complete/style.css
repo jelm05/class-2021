@@ -1,0 +1,75 @@
+
+body, html {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#character {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background-color: black;
+  /* background-image: url('/path/to/character'); */
+}
+
+.enemy {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.pickup {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+#world {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: #a5cfd9;
+}
+
+#ground {
+  position: absolute;
+  /* 400 height of world - 380 position = 20px ground */
+  top: 380px;
+  left: 0px;
+  width: 600px;
+  height: 20px;
+  border-top: 3px solid #8ca862;
+  background-color: green;
+}
+
+.message {
+  position: absolute;
+  padding: 30px;
+  left: 190px;
+  top: 140px;
+  background-color: white;
+  width: 170px;
+  text-align: center;
+  z-index: 100;
+  border: 1px solid #333;
+}
+
+#start-game {
+  cursor: pointer;
+}
+
+#game-over {
+  display: none;
+}
+
+.display {
+  position: relative;
+  padding: 4px;
+  z-index: 100;
+}
